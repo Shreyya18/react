@@ -1,4 +1,8 @@
 import './App.css';
+const reset = () => {
+  const container=document.getElementsByClassName('container');
+  container.value=" ";
+}
 
 function App() {
   return(
@@ -45,13 +49,14 @@ function App() {
       <label htmlFor="about">About</label>
       <textarea name="" id="" rows={3}></textarea>
       <p>Submit or Reset</p>
-      <button>Reset</button>
-      <button>Submit</button>
+      <button onClick={reset()}>Reset</button>
+      <button >Submit</button>
     </div>
     </>
   )
 
+ }
   
-}
+
 
 export default App
