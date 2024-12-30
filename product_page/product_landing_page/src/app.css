@@ -1,0 +1,20 @@
+#root{
+    width:250px;
+    height:300px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 2rem auto;
+    align-items: center;
+    padding: 5%;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+h2{
+    text-align: center;
+    display: inline;
+    padding: 20px;
+}
+table{
+    width: 100%;
+    padding: 10px;
+}
