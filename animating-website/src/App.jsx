@@ -2,7 +2,9 @@ import React from 'react'
 import './App.css'
 const App = () => {
   return (
-    <div className='text-blue-500 bg-pink-300'>App</div>
+    <main>
+      <h1 className='text-5xl text-orange-500 font-bold'>Welcome to Awards</h1>
+    </main>
   )
 }
 
