@@ -14,6 +14,7 @@ const StopWatch = () => {
 
   const handleReset=()=>{
     setIsActive(false);
+    setTime(0);
   }
   const handlePause=()=>{
     setIsPaused(!isPaused);
@@ -30,13 +31,14 @@ const StopWatch = () => {
     else{
       clearInterval(intervalId);
     }
+    return ()=>clearInterval(intervalId);
   },[isActive,isPaused] );
 
 
   return (
     <div className="min-h-screen w-full flex flex-col items-center  m-12 bg-white text-black mx-auto  ">
       <h1 className="m-4 text-3xl font-bold text-red-700">Stop Watch</h1>
-      <Timer times={time} />
+      <Timer times={{time}} />
       <ControlButton active={isActive} onStart={handleStart} onReset={handleReset} onPause={handlePause} pause={isPaused}/>
     </div>
   );
