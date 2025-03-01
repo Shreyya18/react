@@ -4,9 +4,7 @@ import StopWatch from "./Components/StopWatch";
 const App=()=>{
 
   return(
-    <div className="bg-black min-h-screen">
       <StopWatch />
-    </div>
 
   )
 }
