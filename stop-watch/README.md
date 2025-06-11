@@ -31,3 +31,4 @@ This is a simple stop watch application built using React.
     ```
 2. Open your browser and navigate to `http://localhost:3000`
 
+Check the live app here:https://stop-watch-iota-khaki.vercel.app/
