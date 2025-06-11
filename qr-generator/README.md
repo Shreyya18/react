@@ -31,5 +31,5 @@ This project is a simple QR Code Generator built with React.
     ```
 2. Open your browser and go to `http://localhost:3000`
 
-
+Link to deployed App Check out the live app here: https://qr-code-five-lac.vercel.app/
 
